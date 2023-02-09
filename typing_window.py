@@ -22,7 +22,6 @@ for c in range(10):
         txt.append(' '.join(words[i:i+10]))
         length += len(txt[j])
         j += 1
-    print(length)
     
     if length + 3 < 340:
         break
@@ -61,7 +60,6 @@ times = []
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            print(times)
             pygame.quit()
             quit()
         
